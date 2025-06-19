@@ -1,2 +1,2 @@
 python -c "import nltk; nltk.download('vader_lexicon')" 
-gunicorn app:app 
+python -m gunicorn app:app 
